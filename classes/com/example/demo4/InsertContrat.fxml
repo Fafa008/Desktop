@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="355.0" prefWidth="564.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.Controleur.ContratControleur">
+   <children>
+      <Label layoutX="252.0" layoutY="20.0" text="Contrat">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="83.0" text="Offres :">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="34.0" layoutY="279.0" text="Livraison :">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="34.0" layoutY="172.0" text="Demande">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="308.0" layoutY="81.0" prefHeight="17.0" prefWidth="138.0" text="Quantité Comericialiser :">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="308.0" layoutY="172.0" text="Montant Total :">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <ComboBox fx:id="Offre" layoutX="34.0" layoutY="113.0" prefWidth="150.0" />
+      <ComboBox fx:id="demande" layoutX="34.0" layoutY="200.0" prefWidth="150.0" />
+      <DatePicker fx:id="dateLivraison" layoutX="33.0" layoutY="306.0" />
+      <TextField fx:id="qtCom" layoutX="308.0" layoutY="113.0" prefHeight="35.0" prefWidth="149.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <TextField fx:id="montant" layoutX="308.0" layoutY="200.0" prefHeight="35.0" prefWidth="149.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <Button fx:id="ajoutOffre" layoutX="34.0" layoutY="147.0" mnemonicParsing="false" text="Ajouter Offre" />
+      <Button fx:id="ajoutDemande" layoutX="34.0" layoutY="232.0" mnemonicParsing="false" text="Ajouter Demande" />
+      <Button fx:id="inserer" layoutX="244.0" layoutY="283.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="142.0" styleClass="buttonSP" stylesheets="@../../../Style/Style.css" text="Inserer">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="modifier" layoutX="393.0" layoutY="283.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="142.0" styleClass="buttonSP" stylesheets="@../../../Style/Style.css" text="Modifier">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="Confirme" layoutX="210.0" layoutY="160.0" mnemonicParsing="false" styleClass="buttonSP" stylesheets="@../../../Style/Style.css" text="Confirmer">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label layoutX="459.0" layoutY="122.0" text="Kg">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="460.0" layoutY="209.0" text="Ar">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

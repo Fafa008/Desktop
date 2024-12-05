@@ -1,0 +1,48 @@
+.card{
+-fx-background-color : #FEAE6F;
+-fx-effect: dropshadow(three-pass-box, rgba(10,0,0,0.1), 10, 0, 0, 10);
+-fx-padding: 20px;
+-fx-border-radius: 10px;
+-fx-background-radius: 10px;
+}
+.background{
+-fx-background-color :  #FFFFFF;
+-fx-background-radius : 10px;
+}
+.parent{
+-fx-background-color : #EEEDEB;
+-fx-background-radius : 10px;
+}
+.search-bar{
+-fx-background-color :  #FFFFFF;
+-fx-background-radius : 30px;
+-fx-border-radius:30px;
+-fx-border-color: black;
+}
+.transparent{
+-fx-background-color :  transparent;
+}
+.filter{
+-fx-background-color :  transparent;
+-fx-border-radius:10px;
+-fx-border-color: black;
+}
+.buttonSP {
+    -fx-background-color: Transparent;
+    -fx-shape: "M 400 200 L 400 250 L 500 250 L 500 200 L 400 200";
+    -fx-text-fill: Black;
+    -fx-border-color: black;
+}
+
+.buttonSP .text {
+    -fx-fill: Black;
+}
+
+.buttonSP:hover .text {
+    -fx-fill: Black;
+}
+
+.buttonSP:hover {
+    -fx-background-color: yellow;
+    -fx-shape: "M 400 200 L 400 250 L 500 250 L 500 200 L 400 200";
+}

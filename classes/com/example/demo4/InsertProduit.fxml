@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.Controleur.ProduitControleur">
+      <Label alignment="CENTER" layoutX="246.0" layoutY="14.0" prefHeight="40.0" prefWidth="258.0" text="Produit">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="103.0" prefHeight="27.0" prefWidth="111.0" text="Type de Produit : ">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+      <TextField fx:id="type" layoutX="136.0" layoutY="99.0" prefHeight="41.0" prefWidth="149.0" promptText="Mais, Manioc, Miel, Riz, Autre">
+      <font>
+         <Font size="14.0" />
+      </font></TextField>
+      <Label layoutX="20.0" layoutY="157.0" text="Caracteristique :">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+      <Label layoutX="29.0" layoutY="314.0" text="Quantité :">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+      <Label layoutX="402.0" layoutY="103.0" text="Période :">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+      <TextArea fx:id="caracteristique" layoutX="135.0" layoutY="147.0" prefHeight="107.0" prefWidth="200.0" promptText="Ex: Riz : Paddy, ...  Miel : Polifloral, ...">
+      <font>
+         <Font size="14.0" />
+      </font></TextArea>
+      <TextField fx:id="quantite" layoutX="132.0" layoutY="310.0" prefHeight="41.0" prefWidth="149.0" promptText="1000">
+      <font>
+         <Font size="14.0" />
+      </font></TextField>
+      <TextField fx:id="periode" layoutX="483.0" layoutY="100.0" prefHeight="41.0" prefWidth="149.0" text="2 mois">
+      <font>
+         <Font size="14.0" />
+      </font></TextField>
+      <Label layoutX="402.0" layoutY="191.0" text="Prix :">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+      <TextField fx:id="prix" layoutX="486.0" layoutY="180.0" prefHeight="41.0" prefWidth="149.0" promptText="6000">
+      <font>
+         <Font size="14.0" />
+      </font></TextField>
+      <Label layoutX="402.0" layoutY="254.0" text="Zone :">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+      <Label layoutX="400.0" layoutY="316.0" text="Producteur :">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+      <ComboBox fx:id="zone" layoutX="486.0" layoutY="251.0" prefWidth="150.0" />
+      <ComboBox fx:id="producteur" layoutX="487.0" layoutY="312.0" prefWidth="150.0" />
+      <Button fx:id="insertZone" layoutX="649.0" layoutY="251.0" mnemonicParsing="false" text="Zone" />
+      <Button fx:id="InsertProducteur" layoutX="649.0" layoutY="313.0" mnemonicParsing="false" text="Producteur" />
+      <Button fx:id="inserer" layoutX="223.0" layoutY="397.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="152.0" styleClass="buttonSP" stylesheets="@../../../Style/Style.css" text="Inserez">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="modifier" layoutX="402.0" layoutY="397.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="142.0" styleClass="buttonSP" stylesheets="@../../../Style/Style.css" text="Modifier">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+   <Label layoutX="285.0" layoutY="323.0" text="Kg">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Label>
+   <Label layoutX="637.0" layoutY="196.0" text="Ar/Kg">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Label>
+</AnchorPane>
